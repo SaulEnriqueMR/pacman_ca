@@ -1,0 +1,24 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+
+html, body {
+    background: #000000;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    border: #3615fa .5rem solid;
+    border-radius: 1rem;
+    position: relative;
+    overflow: hidden;
+}
+
+#pacman {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 200px;
+}
